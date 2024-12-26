@@ -131,14 +131,14 @@ const DeleteConfirmationPrompt = ({
                 )}
                 style={{
                     position: 'absolute',
-                    top: '50%', // Vertically centered
+                    top: '50%',
                     transform: 'translateY(-50%)',
-                    [isRTL ? 'left' : 'right']: '-10px' // Dynamic side positioning
+                    [isRTL ? 'left' : 'right']: '-10px'
                 }}
             >
                 <img
                     className={styles.deleteIcon}
-                    src={isRTL ? arrowLeftIcon : arrowRightIcon} // FIXED Arrow direction
+                    src={isRTL ? arrowLeftIcon : arrowRightIcon}
                 />
             </Box>
             <Box className={styles.body}>
